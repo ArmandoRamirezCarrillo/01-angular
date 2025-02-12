@@ -8,13 +8,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public title: string = 'Mi primera app de Angular';
-  public counter: number  = 10;
+  // public counter: number  = 10;
 
-  increaseBy(value: boolean = true):void{
-    (value) ?this.counter +=1 : this.counter -=1 ;
-  }
+  // increaseBy(value: boolean = true):void{
+  //   (value) ?this.counter +=1 : this.counter -=1 ;
+  // }
 
-  resetValue(): void{
-    this.counter = 10;
-  }
+  // resetValue(): void{
+  //   this.counter = 10;
+  // }
 }
