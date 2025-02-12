@@ -7,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'bases';
+  public title: string = 'Mi primera app de Angular';
+  public counter: number  = 10;
+
+  increaseBy(value: boolean = true):void{
+    (value) ?this.counter +=1 : this.counter -=1 ;
+  }
+
+  resetValue(): void{
+    this.counter = 10;
+  }
 }
